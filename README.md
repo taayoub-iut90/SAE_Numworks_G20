@@ -2,8 +2,10 @@
 ***
 Groupe numéro : 20
 
-Etudiant 1 (référent du groupe)   nom : Simon  -   email :
+Titre du projet : NumWorks 
 
-URL du site **github page** : https://taayoub-iut90.github.io/SAE_Numworks_G20/
-
-URL du projet **github** : https://github.com/taayoub-iut90/SAE_Numworks_G20
+Etudiant 1 (référent du groupe) :  Simon (mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 2 : Ayoub (mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 3 : Robin (mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 4 : Sefa (mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 5 : Timon (mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
