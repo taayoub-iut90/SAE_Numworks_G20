@@ -4,7 +4,7 @@ Groupe numéro : 20
 
 Titre du projet : NumWorks 
 
-Etudiant 1 (référent du groupe) :  Simon (mailto:simon.bonnin@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 1 (référent du groupe) :  Simon [mailto:simon.bonnin@edu.univ-fcomte.fr?subject=SAE_1_05_06]
 
 Etudiant 2 : Ayoub (mailto:ayoub.tajani@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
 
