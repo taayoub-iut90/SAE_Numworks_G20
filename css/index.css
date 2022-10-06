@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    min-height: 1000px;
 }
 
 header
@@ -11,13 +18,35 @@ header
     left: 0;
     width: 100%;
     height: 100%;
-    background: #000;
+    background: #FFB734;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     transition: 1s;
+}
 
+header .scroll
+{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+    text-decoration: none;
+    z-index: 1;
+    width: 10%;
+}
 
+header.sticky .scroll{
+    opacity: 0;
+}
+header.sticky
+{
+    height: 80px;
+}
+header.sticky .banner
+{
+    opacity: 0;
 }
 header .banner
 {
@@ -28,6 +57,21 @@ header .banner
     height: 100%;
     object-fit: cover;
     transition: 1s;
+    
+}
+header h1
+{
+    position: absolute;
+    top: 39%;
+    transform: translate(-50%,-50%);
+    left: 40%;
+    color: #FFB734;
+    font-family: 'Source Sans Pro';
+}
+
+header.sticky h1
+{
+    opacity: 0;
 }
 
 header .logo
@@ -37,28 +81,60 @@ header .logo
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 15vw;
-    color: #957858;
-    font-weight: 700;
+    height: 80px;
     transition: 1s;
     text-decoration: none;
     z-index: 1;
 }
 
+header.sticky .logo
+{
+    position: absolute;
+    font-size: 2em;
+    left: 30px;
+    height: 25px;
+    transform: translate(0,-50%);
+    color: #fff;
+}
+
 nav{
     position: relative;
     display: flex;
+    font-family: 'Source Sans Pro';
     z-index: 1;
 }
 
-nav ul {
+nav ul 
+{
     position: relative;
     display: flex;
     transition: 0.25s;
+    transform: translateX(100px);
+    opacity: 0;
+
 }
-nav ul li{
+header.sticky nav ul{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+nav ul li
+{
     list-style: none;
 }
 
-nav ul li a {
-    
+nav ul li a 
+{
+    color: #fff;
+    display: inline-block;
+    padding:  10px 15px;
+    font-size: 1.2em;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover
+{
+    color: #2B387B;
 }

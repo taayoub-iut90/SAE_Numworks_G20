@@ -26,8 +26,11 @@
     </head>
     <body>
         <header>
-            <img src="img/numworks-calculatrice.jpg" class="banner">
-            <a href="#" class = "logo">Numworks</a>
+            <img src="img/106006189_156494015935738_3466527088750849077_n.jpg" class="banner">
+            <h1>Site d'information sur  </h1>
+            <img src="img/scrolldown.gif" class="scroll">
+            <!-- <a href="#" class = "logo">Numworks</a> -->
+            <img src="img/755c7768.svg" class="logo">
             <nav>
                 <ul>
                     <li><a href="#" >Accueil</a></li>
@@ -39,6 +42,13 @@
 
             </nav>
         </header>
+
+        <script>
+            window.addEventListener("scroll",function(){
+                const header = document.querySelector('header');
+                header.classList.toggle('sticky', window.scrollY >0);
+            })
+        </script>
         
     </body>
 </html>
