@@ -19,8 +19,12 @@ Etudiant 5 : [Timon](mailto:timon.dubreuil@edu.univ-fcomte.fr?subject=SAE_1_05_0
 
 ![image](https://user-images.githubusercontent.com/89230848/194498101-38f5a4d9-1304-4bc3-9223-27893485d188.png)
 
-## Reponsive 
+### Reponsive 
 ![image](https://user-images.githubusercontent.com/89230848/194498437-37505042-77ce-4999-a596-9a3513f437e2.png)
+
+# Zoning:
+![image](https://user-images.githubusercontent.com/89230848/194498724-92a6b816-773b-4081-81a0-a432c7f73f7b.png)
+
 
 
 
