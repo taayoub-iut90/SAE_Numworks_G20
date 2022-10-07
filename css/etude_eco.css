@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid orange ;
+}
+
+nav h1{
+    font-size: 30px;
+    color: orange;
+}
+
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+
+}
+
+
+nav .onglets a:hover{
+    color: aqua;
+}
+
+@media screen and (max-width: 1024px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header h1{
+    color: black;
+
+}
+
+.texte1{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    max-width: 300px;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

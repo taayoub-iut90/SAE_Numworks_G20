@@ -143,7 +143,7 @@ nav ul li a:hover
 section
 {
     margin-top: 50vh;
-    padding: 10;
+    padding: 100px;
 }
 section h2
 {
@@ -155,6 +155,38 @@ section p
  font-size: 1.2em;   
 }
 
+section .imagetest
+{
+    float: left;
+    width: 300px;
+}
+section .imagetest2
+{
+    float: right;
+    width: 300px;
+}
+
+section article
+{
+    margin-top: 40px;
+}
+
+footer
+{
+    background-color: #FFB734;
+    width: 100%;
+    height: 230px;
+}
+
+footer .fcomte
+{
+    margin-top: 70px;
+    width: 25%;
+}
+footer p
+{
+    margin-left: 50%;
+}
 @media(max-width: 991px)
 {
     section,
@@ -172,6 +204,25 @@ section p
         opacity: 0;
         visibility: hidden;
     }
+    nav.active ul 
+    {
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: calc(100%- 80px);
+        background: #FFB734;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    header.sticky nav ul
+    {
+        opacity: 1;
+        visibility: visible;
+    }
     header.sticky .toggle
     {
         position: fixed;
@@ -186,4 +237,13 @@ section p
         background-position: center;
         
     }
+    header.sticky .toggle.active
+    {
+        background: #fff url("../img/icone-fermer-et-x-noir.png");
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+
 }
