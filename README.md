@@ -24,6 +24,9 @@ Etudiant 5 : [Timon](mailto:timon.dubreuil@edu.univ-fcomte.fr?subject=SAE_1_05_0
 
 # Zoning:
 ![image](https://user-images.githubusercontent.com/89230848/194498724-92a6b816-773b-4081-81a0-a432c7f73f7b.png)
+## Wireframe :
+![image](https://user-images.githubusercontent.com/89230848/194499313-b503d285-7b52-4dcf-a766-c54ef4d8199b.png)
+
 
 
 
