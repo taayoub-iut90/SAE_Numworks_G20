@@ -146,7 +146,7 @@ nav ul li a:hover
 }
 
 .titreÉco{
-    background:  url("img/écooo.png");
+    background-image:  url("../img/écooo.png");
     background-size:cover;
     padding: 1%;
     margin-bottom: 4%;
@@ -384,14 +384,15 @@ footer{
 
 footer .créateur{
     color: #fff;
-    padding-left: 40%;
+    /* padding-left: 40%; */
     float: inline-end;
     margin-right: 3%;
-    font-size: large;
+    font-size: larger;
 }
 
 footer .logo{
-    margin-right: 20%;
+    float: inline-start;
+    margin-right: 18%;
    
 }
 
