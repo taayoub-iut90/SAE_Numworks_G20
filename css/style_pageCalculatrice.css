@@ -1,19 +1,26 @@
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
-.footer
-{
-
-  padding: 2%;
-  background-color: #FFB734;
-  color: white;
-  font-family: 'Source Sans Pro';
-  box-shadow: 8px 8px 20px rgb(255, 183, 52);
-  border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
+footer{
+  padding: 4%;
+  background-color: #563838;
+  margin-top: 10%;
 }
 
+footer .créateur{
+  color: #fff;
+  padding-left: 40%;
+  float: inline-end;
+  margin-right: 3%;
+  font-size: large;
+}
 
+footer .logo{
+  margin-right: 20%;
+}
+footer .fcomte{
+  margin-left: 20%;
+}
 
 
 
