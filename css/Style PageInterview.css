@@ -1,5 +1,5 @@
 html, body {
-    background-image: url(Fond.jpg);
+    background-image: url(../img/Fond.jpg);
     background-size: cover;
     margin: 0%;
 }
@@ -181,7 +181,7 @@ nav ul li a:hover {
     border-radius: 80px;
     width: 180px;
     height: 300px;
-    background: url(Tête\ de\ Félix.jfif) center;
+    background: url(../img/Tête\ de\ Félix.jfif) center;
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -245,7 +245,7 @@ nav ul li a:hover {
     border-radius: 80px;
     width: 180px;
     height: 300px;
-    background: url(Tête-de-Simon.jfif) center;
+    background: url(../img/Tête-de-Simon.jfif) center;
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -311,7 +311,7 @@ nav ul li a:hover {
     margin-right: auto;
     width: 180px;
     height: 300px;
-    background: url(Tête\ de\ Timon.jpg) center;
+    background: url(../img/Tête\ de\ Timon.jpg) center;
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -393,3 +393,23 @@ nav ul li a:hover {
     margin: 10%;
 }
 
+footer
+{
+    background: #563838;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+
+footer .fcomte {
+    width: 20%;
+    float: right;
+}
+
+footer p {
+    margin-left: 50%;
+}
+
+footer .logo {   
+    width: 25%;
+}
