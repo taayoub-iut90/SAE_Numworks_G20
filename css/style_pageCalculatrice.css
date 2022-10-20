@@ -1,0 +1,168 @@
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+.footer
+{
+
+  padding: 2%;
+  background-color: #FFB734;
+  color: white;
+  font-family: 'Source Sans Pro';
+  box-shadow: 8px 8px 20px rgb(255, 183, 52);
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+
+
+
+
+
+.sefaBox
+{
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  padding: 2%;
+  background: linear-gradient(to left top, white, rgb(255, 183, 52));;
+  box-shadow: 8px 8px 20px rgb(255, 183, 52);
+  border-radius: 30px; 
+}
+
+p{
+  margin-left: 1cm;
+  margin-right: 0.5cm;
+  /* color: blue; */
+}
+
+h1
+{
+    color: #FFB734;
+    font-family: 'Source Sans Pro';
+}
+
+.center
+{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-images {
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1cm,1cm,1cm,1cm;
+  padding: 3cm,3cm,3cm,3cm;
+
+
+}
+
+.item-image
+{
+  /* position:relative center;  */
+  flex-grow: 1;
+  flex-shrink: 0; 
+} 
+
+.item-image-1
+{
+	width: 80%;
+
+}
+.item-image-2
+{
+	width: 50%;
+
+}
+.item-image-3
+{
+	width: 50%;
+
+} 
+
+.flex-container-columns {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  /* border: purple 10px solid; */
+
+  /* margin-right: 1cm;
+  margin-left: 1cm; */
+}
+
+.flex-container-rows {
+
+  display: flex;
+  flex-direction:column ;
+  /* border: dotted black 1px; */
+  align-items: center;
+  /* margin-right: 1cm;
+  margin-left: 1cm; */
+}
+
+.column-flex-item{
+  flex: 1;
+  /* border: red 10px solid; */
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
+
+}
+
+@media all and (min-width:1450px)
+{
+  .flex-container-columns 
+  {
+    flex-direction: row;
+  }
+
+  .column-flex-item{
+    flex: 1;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+
+  }
+}
+
+.divider
+{
+  border-top: 3px solid black;
+  margin-left: 0.4cm;
+  margin-right: 0.4cm;
+}
+
+.column-image
+{
+  /* max-width:350px; */
+	width: 80%;
+  border-radius: 30px;
+
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.limited350
+{
+  max-width: 350px;
+}
+
+.limited500
+{
+  max-width: 500px;
+}
+
+.legende
+{
+  font-size: larger;
+}
+
+.titre
+{
+  text-align: center;
+
+}
