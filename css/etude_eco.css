@@ -387,5 +387,11 @@ footer .créateur{
     padding-left: 40%;
     float: inline-end;
     margin-right: 3%;
+    font-size: large;
+}
+
+footer .logo{
+    margin-right: 20%;
+   
 }
 
