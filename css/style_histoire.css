@@ -152,7 +152,7 @@ body {
 }
 
 .creation1 {
-    display: flex; top: 600px; left: 100px;
+    position: absolute; top: 600px; left: 100px;
     width: 800px;
     min-height: 100px;
     border-radius: 10px;
