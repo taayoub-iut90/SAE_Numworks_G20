@@ -317,7 +317,9 @@ body {
     animation: apparition 1s 5.6s ease-out forwards;
 }
 
-
+footer{
+    background: #563838;
+}
 
 
 @keyframes apparition{
