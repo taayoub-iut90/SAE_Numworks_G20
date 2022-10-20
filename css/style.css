@@ -141,7 +141,7 @@ body {
     width: 100%;
     color:black;
     background: color #333;;
-    background-image: url("../images/font21.jpg") fixed;
+    background-image: url("../images/font21.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
