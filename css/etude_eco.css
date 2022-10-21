@@ -371,19 +371,19 @@ nav ul li a:hover
     background: linear-gradient(to left top, white, rgb(255, 183, 52));
     box-shadow: 12px 10px 30px rgb(255, 183, 52);
     font-family: 'Source Sans Pro', sans-serif;
-    font-size:larger;    
+    font-size:larger;  
+    margin-bottom: 8%;  
     
 }
 
 
-/* footer{
-    padding: 4%;
-    background-color: #563838;
-    margin-top: 10%;
+/* #footer{
+    background-color: #2B387B;
 }
+ */
 
-footer .créateur{
-    color: #fff; */
+/* footer .créateur{
+    color: #fff;  */
 
     /* padding-left: 40%;
     float: inline-end;
