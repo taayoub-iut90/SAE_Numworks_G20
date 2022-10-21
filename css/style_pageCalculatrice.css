@@ -17,7 +17,6 @@
 p{
   margin-left: 1cm;
   margin-right: 0.5cm;
-  /* color: blue; */
 }
 
 h1
@@ -47,7 +46,6 @@ h1
 
 .item-image
 {
-  /* position:relative center;  */
   flex-grow: 1;
   flex-shrink: 0; 
 } 
@@ -74,26 +72,17 @@ h1
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
-  /* border: purple 10px solid; */
-
-  /* margin-right: 1cm;
-  margin-left: 1cm; */
 }
 
 .flex-container-rows {
 
   display: flex;
   flex-direction:column ;
-  /* border: dotted black 1px; */
   align-items: center;
-  /* margin-right: 1cm;
-  margin-left: 1cm; */
 }
 
 .column-flex-item{
   flex: 1;
-  /* border: red 10px solid; */
   padding-left: 0.5cm;
   padding-right: 0.5cm;
 
@@ -151,22 +140,4 @@ h1
 {
   text-align: center;
 
-}
-
-footer
-{
-    background: #563838;
-    width: 100%;
-    height: 200px;
-    color: white;
-}
-
-footer .fcomte
-{
-    width: 20%;
-    float: right;
-}
-footer p
-{
-    margin-left: 50%;
 }
