@@ -1,10 +1,13 @@
 /* code pour le footer */
-.footer
+
+
+footer
 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
 
     margin: 0;
 
@@ -14,7 +17,19 @@
     width: 100%;
     height: 200px;
 
+    position:static;
+    padding-left: 0.22cm;
+    padding-right: 0.22cm;
+
     position:sticky;
+}
+
+.footer-createur{
+    color: white;
+    /* padding-left: 40%; */
+    float: inline-end;
+    margin-right: 3%;
+    font-size: larger;
 }
 
 .footer-image

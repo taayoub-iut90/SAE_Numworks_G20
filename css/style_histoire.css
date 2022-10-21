@@ -29,7 +29,7 @@ html {
     margin-top: auto;
     margin-bottom: auto;
 }
-
+/* 
 header
 {
     position: fixed;
@@ -126,7 +126,7 @@ nav ul li a:hover
     color: #2B387B;
     text-decoration-line: underline;
     transition: 1s;
-}
+} */
 
 .box {
     display: flex;
@@ -316,7 +316,7 @@ body {
     transform: translateY(-30);
     animation: apparition 1s 5.6s ease-out forwards;
 }
-
+/* 
 footer{
     padding: 4%;
     background-color: #563838;
@@ -334,7 +334,7 @@ footer .créateur{
 footer .logo{
     margin-right: 20%;
 
-}
+} */
 
 
 @keyframes apparition{

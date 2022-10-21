@@ -17,7 +17,6 @@
 p{
   margin-left: 1cm;
   margin-right: 0.5cm;
-  /* color: blue; */
 }
 
 h1
@@ -47,7 +46,6 @@ h1
 
 .item-image
 {
-  /* position:relative center;  */
   flex-grow: 1;
   flex-shrink: 0; 
 } 
@@ -74,26 +72,17 @@ h1
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
-  /* border: purple 10px solid; */
-
-  /* margin-right: 1cm;
-  margin-left: 1cm; */
 }
 
 .flex-container-rows {
 
   display: flex;
   flex-direction:column ;
-  /* border: dotted black 1px; */
   align-items: center;
-  /* margin-right: 1cm;
-  margin-left: 1cm; */
 }
 
 .column-flex-item{
   flex: 1;
-  /* border: red 10px solid; */
   padding-left: 0.5cm;
   padding-right: 0.5cm;
 
@@ -152,130 +141,3 @@ h1
   text-align: center;
 
 }
-
-/* code pour le footer */
-
-/* .footer
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    border-radius: 30px;
-    color: white;
-    background-color: rgb(255, 183, 52);;
-    width: 100%;
-    height: 200px;
-}
-.footer-image
-{
-    width: 20%;
-    float: right;
-} */
-
-
-
-
-/* code de la navbar */
-
-/* 
-header
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    background: #563838;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    transition: 1s;
-    z-index: 2;
-
-}
-
-header .scroll
-{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s;
-    text-decoration: none;
-    z-index: 1;
-    width: 10%;
-}
-
-header .banner
-{
-    position: absolute;
-    top: 0%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: 1s;
-    
-}
-header h1
-{
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    left:27%;
-    color: #563838;
-    font-family: 'Source Sans Pro';
-}
-
-
-header .logo
-{
-    position: absolute;
-    font-size: 2em;
-    left: 30px;
-    height: 25px;
-    transform: translate(0,-50%);
-    color: #fff;
- 
-}
-
-
-nav{
-    position: relative;
-    display: flex;
-    font-family: 'Source Sans Pro';
-    z-index: 1;
-}
-
-nav ul 
-{
-    position: relative;
-    display: flex;
-    transform: translateX(0);
-    opacity: 1;
-    transition-delay: 0.75s;    
-
-}
-nav ul li
-{
-    list-style: none;
-}
-
-nav ul li a 
-{
-    color: #fff;
-    display: inline-block;
-    padding:  10px 15px;
-    font-size: 1.2em;
-    text-decoration: none;
-
-}
-
-nav ul li a:hover
-{
-    color: #2B387B;
-    text-decoration-line: underline;
-    transition: 1s;
-} */
