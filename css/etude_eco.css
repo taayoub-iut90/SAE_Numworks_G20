@@ -383,8 +383,9 @@ nav ul li a:hover
 }
 
 footer .créateur{
-    color: #fff;
-    /* padding-left: 40%; */
+    color: #fff; */
+
+    /* padding-left: 40%;
     float: inline-end;
     margin-right: 3%;
     font-size: larger;
@@ -394,5 +395,5 @@ footer .logo{
     float: inline-start;
     margin-right: 18%;
     */
-}
+/* } */
 
